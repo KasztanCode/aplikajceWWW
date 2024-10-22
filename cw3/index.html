@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historia lotów kosmicznych</title>
+  <link rel="stylesheet" href="style.css"></head>
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="clock.js"></script>
+  <script src="logo.js" defer></script>
+  <script src="hover.js"></script>
+<body>
+
+
+<header>
+  <div class="container">
+    <div class="logo">
+      <span id="logoText"><span class="highlight">Historia</span> lotów kosmicznych</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Strona główna</a></li>
+        <li><a href="poczatek.html">Początek wyścigu kosmicznego</a></li>
+        <li><a href="ladowanie.html">Lądowanie na Księżycu</a></li>
+        <li><a href="era.html">Era wahadłowców</a></li>
+        <li><a href="iss.html">ISS</a></li>
+        <li><a href="przyszle.html">Przyszłe misje</a></li>
+      </ul>
+    </nav>
+  </div>
+  <button id="darkModeToggle">Dark mode</button>
+</header>
+
+<div class="container">
+  <main class="main-content" role="main">
+    <section id="home" class="section hero fade-in">
+      <h1>Odkrywanie kosmosu: Podróż ludzkości ku gwiazdom</h1>
+      <div id="clock"></div>
+      <img  src="https://cms-image-bucket-production-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com/images/5/8/6/3/47293685-9-eng-GB/photo_SXM2024021700001938%20(1).jpg" alt="Obraz kosmosu" class="hero-image">
+      <p>Poznaj fascynującą historię eksploracji kosmosu i dowiedz się, jak marzenia o podróżach międzygwiezdnych stały się rzeczywistością.</p>
+    </section>
+
+    <section class="section topics">
+      <div id="early-space-race" class="topic-card fade-in">
+        <h3>Początek wyścigu kosmicznego</h3>
+        <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCtBsRLAWTgY4_BXXlvn9XrYyejDEr-UXXo7c-elAYgdzf5blsAVPLEZ-_71mscpbkBDo&usqp=CAU">
+        <p>Intensywna rywalizacja między USA a ZSRR, która zapoczątkowała erę eksploracji kosmosu.</p>
+      </div>
+
+      <div id="moon-landing" class="topic-card fade-in">
+        <h3>Lądowanie na Księżycu</h3>
+        <img class="image" src="https://i.natgeofe.com/k/1ef0d42f-adf7-49e7-a2de-7d381fd18f95/moon-landing-textimage_square.png">
+        <p>Historyczna misja Apollo 11, która zaznaczyła pierwsze kroki ludzkości na innym ciele niebieskim.</p>
+      </div>
+
+      <div id="space-shuttle" class="topic-card fade-in">
+        <h3>Era wahadłowców</h3>
+        <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ1WfmbNMzA86LYIKoLcUpIS9u9kuT4yUWHQ&s">
+        <p>Wielokrotnego użytku statki kosmiczne, które zrewolucjonizowały podróże kosmiczne i umożliwiły liczne misje naukowe.</p>
+      </div>
+
+      <div id="iss" class="topic-card fade-in">
+        <h3>Międzynarodowa Stacja Kosmiczna</h3>
+        <img class="image" src="https://przystaneknauka.us.edu.pl/sites/default/files/field/image/international_space_station_after_undocking_of_sts-132.jpg">
+        <p>Orbitalne laboratorium, które wspiera międzynarodową współpracę i przełomowe badania.</p>
+      </div>
+
+      <div id="future-missions" class="topic-card fade-in">
+        <h3>Przyszłe misje</h3>
+        <img class="image" src="https://miro.medium.com/v2/resize:fit:1400/1*zD-u73NcrOGx0k-hrE2eEw.jpeg">
+        <p>Nadchodzące plany baz księżycowych, eksploracji Marsa i dalszych wypraw w nasz Układ Słoneczny.</p>
+      </div>
+    </section>
+  </main>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>O nas</h3>
+        <p>Jesteśmy pasjonatami kosmosu, którzy chcą dzielić się fascynującą historią eksploracji kosmosu z całym światem.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Kontakt</h3>
+        <form id="contact-form">
+          <input type="email" placeholder="Twój e-mail" required>
+          <textarea placeholder="Twoja wiadomość" required></textarea>
+          <button type="submit">Wyślij</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
